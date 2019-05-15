@@ -24,6 +24,7 @@ If just `contact_info` is sent we ask for you to send the confirmation code to t
   - __`200`__ `Ok`
 
 #### Example:
+```
 # for email:
 curl localhost:3000/email?contact_info=le.mikmac%40gmail.com
 # > HTTP/1.1 200 OK
